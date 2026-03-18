@@ -1,0 +1,302 @@
+
+===== 安全评分报告 =====
+技能: brainstorming
+来源: 本地文件: brainstorming/SKILL.md
+
+代码安全性:  35/35  [通过]
+权限合规性:  25/25  [通过]
+来源可信度:  12/20  [无 LICENSE, 无法获取 Stars 数据]
+元数据完整:   8/10  [缺少 version]
+社区认可度:   8/10  [安装量 < 1000]
+
+总分: 88/100
+等级: A级 - 非常安全
+安全标签: 通过23重安全检测
+========================
+
+
+===== 安全评分报告 =====
+技能: frontend-design
+来源: 本地文件: frontend-design/SKILL.md
+
+代码安全性:  35/35  [通过]
+权限合规性:  25/25  [通过]
+来源可信度:   7/20  [无 GitHub 来源, 无 LICENSE, 无法获取 Stars 数据]
+元数据完整:   8/10  [缺少 version]
+社区认可度:   8/10  [安装量 < 1000]
+
+总分: 83/100
+等级: B级 - 基本安全
+安全标签: 通过22重安全检测
+========================
+
+
+===== 安全评分报告 =====
+技能: ppt-master
+来源: 本地文件: ppt-master/SKILL.md
+
+代码安全性:  35/35  [通过]
+权限合规性:  25/25  [通过]
+来源可信度:   7/20  [无 GitHub 来源, 无 LICENSE, 无法获取 Stars 数据]
+元数据完整:  10/10  [通过]
+社区认可度:   8/10  [安装量 < 1000]
+
+总分: 85/100
+等级: A级 - 非常安全
+安全标签: 通过23重安全检测
+========================
+
+
+===== 安全评分报告 =====
+技能: web-design
+来源: 本地文件: web-design/SKILL.md
+
+代码安全性:  35/35  [通过]
+权限合规性:  25/25  [通过]
+来源可信度:  17/20  [无法获取 Stars 数据]
+元数据完整:  10/10  [通过]
+社区认可度:   8/10  [安装量 < 1000]
+
+总分: 95/100
+等级: S级 - 极致安全
+安全标签: 通过25重安全检测
+========================
+
+
+===== 安全评分报告 =====
+技能: xiaohongshu
+来源: 本地文件: xiaohongshu/SKILL.md
+
+代码安全性:  35/35  [通过]
+权限合规性:  25/25  [通过]
+来源可信度:   7/20  [无 GitHub 来源, 无 LICENSE, 无法获取 Stars 数据]
+元数据完整:  10/10  [通过]
+社区认可度:   8/10  [安装量 < 1000]
+
+总分: 85/100
+等级: A级 - 非常安全
+安全标签: 通过23重安全检测
+========================
+===== 批量评分汇总 =====
+扫描时间: 2026-03-18 16:46:53
+技能总数: 5
+平均分:   87/100
+最高分:   95/100
+最低分:   83/100
+等级分布: S=1 A=3 B=1 C=0 D=0
+========================
+
+--- JSON 数据 ---
+{
+  "summary": {
+    "total_skills": 5,
+    "average_score": 87,
+    "min_score": 83,
+    "max_score": 95,
+    "grade_distribution": {
+      "S": 1,
+      "A": 3,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "scan_time": "2026-03-18 16:46:53"
+  },
+  "results": [
+    {
+      "skill_name": "brainstorming",
+      "source": "本地文件: brainstorming/SKILL.md",
+      "scores": {
+        "code_safety": {
+          "score": 35,
+          "max": 35,
+          "detail": "通过",
+          "high_risk": 0,
+          "med_risk": 0,
+          "low_risk": 0
+        },
+        "permissions": {
+          "score": 25,
+          "max": 25,
+          "detail": "通过"
+        },
+        "source_trust": {
+          "score": 12,
+          "max": 20,
+          "detail": "无 LICENSE, 无法获取 Stars 数据"
+        },
+        "metadata": {
+          "score": 8,
+          "max": 10,
+          "detail": "缺少 version"
+        },
+        "community": {
+          "score": 8,
+          "max": 10,
+          "detail": "安装量 < 1000"
+        }
+      },
+      "total_score": 88,
+      "max_score": 100,
+      "grade": "A",
+      "checks_passed": 23,
+      "checks_total": 27
+    },
+    {
+      "skill_name": "frontend-design",
+      "source": "本地文件: frontend-design/SKILL.md",
+      "scores": {
+        "code_safety": {
+          "score": 35,
+          "max": 35,
+          "detail": "通过",
+          "high_risk": 0,
+          "med_risk": 0,
+          "low_risk": 0
+        },
+        "permissions": {
+          "score": 25,
+          "max": 25,
+          "detail": "通过"
+        },
+        "source_trust": {
+          "score": 7,
+          "max": 20,
+          "detail": "无 GitHub 来源, 无 LICENSE, 无法获取 Stars 数据"
+        },
+        "metadata": {
+          "score": 8,
+          "max": 10,
+          "detail": "缺少 version"
+        },
+        "community": {
+          "score": 8,
+          "max": 10,
+          "detail": "安装量 < 1000"
+        }
+      },
+      "total_score": 83,
+      "max_score": 100,
+      "grade": "B",
+      "checks_passed": 22,
+      "checks_total": 27
+    },
+    {
+      "skill_name": "ppt-master",
+      "source": "本地文件: ppt-master/SKILL.md",
+      "scores": {
+        "code_safety": {
+          "score": 35,
+          "max": 35,
+          "detail": "通过",
+          "high_risk": 0,
+          "med_risk": 0,
+          "low_risk": 0
+        },
+        "permissions": {
+          "score": 25,
+          "max": 25,
+          "detail": "通过"
+        },
+        "source_trust": {
+          "score": 7,
+          "max": 20,
+          "detail": "无 GitHub 来源, 无 LICENSE, 无法获取 Stars 数据"
+        },
+        "metadata": {
+          "score": 10,
+          "max": 10,
+          "detail": "通过"
+        },
+        "community": {
+          "score": 8,
+          "max": 10,
+          "detail": "安装量 < 1000"
+        }
+      },
+      "total_score": 85,
+      "max_score": 100,
+      "grade": "A",
+      "checks_passed": 23,
+      "checks_total": 27
+    },
+    {
+      "skill_name": "web-design",
+      "source": "本地文件: web-design/SKILL.md",
+      "scores": {
+        "code_safety": {
+          "score": 35,
+          "max": 35,
+          "detail": "通过",
+          "high_risk": 0,
+          "med_risk": 0,
+          "low_risk": 0
+        },
+        "permissions": {
+          "score": 25,
+          "max": 25,
+          "detail": "通过"
+        },
+        "source_trust": {
+          "score": 17,
+          "max": 20,
+          "detail": "无法获取 Stars 数据"
+        },
+        "metadata": {
+          "score": 10,
+          "max": 10,
+          "detail": "通过"
+        },
+        "community": {
+          "score": 8,
+          "max": 10,
+          "detail": "安装量 < 1000"
+        }
+      },
+      "total_score": 95,
+      "max_score": 100,
+      "grade": "S",
+      "checks_passed": 25,
+      "checks_total": 27
+    },
+    {
+      "skill_name": "xiaohongshu",
+      "source": "本地文件: xiaohongshu/SKILL.md",
+      "scores": {
+        "code_safety": {
+          "score": 35,
+          "max": 35,
+          "detail": "通过",
+          "high_risk": 0,
+          "med_risk": 0,
+          "low_risk": 0
+        },
+        "permissions": {
+          "score": 25,
+          "max": 25,
+          "detail": "通过"
+        },
+        "source_trust": {
+          "score": 7,
+          "max": 20,
+          "detail": "无 GitHub 来源, 无 LICENSE, 无法获取 Stars 数据"
+        },
+        "metadata": {
+          "score": 10,
+          "max": 10,
+          "detail": "通过"
+        },
+        "community": {
+          "score": 8,
+          "max": 10,
+          "detail": "安装量 < 1000"
+        }
+      },
+      "total_score": 85,
+      "max_score": 100,
+      "grade": "A",
+      "checks_passed": 23,
+      "checks_total": 27
+    }
+  ]
+}
