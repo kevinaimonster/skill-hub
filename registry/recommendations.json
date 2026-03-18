@@ -5,6 +5,111 @@
   "total_count": 390,
   "skills": [
     {
+      "id": "xiaohongshu",
+      "name": "xiaohongshu",
+      "name_zh": "小红书",
+      "description": "Xiaohongshu content creation assistant",
+      "description_zh": "小红书内容创作助手，支持种草笔记、好物推荐、教程干货、探店测评等",
+      "category": "content",
+      "tags": [
+        "小红书",
+        "种草",
+        "笔记",
+        "xhs"
+      ],
+      "install_command": "npx skills add kevinaimonster/skill-hub@xiaohongshu -g -y",
+      "source": "kevinaimonster/skill-hub",
+      "skill_path": "skills/xiaohongshu",
+      "safety_score": 95,
+      "quality_grade": "S",
+      "is_satellite": true,
+      "weight": 3.0
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "name_zh": "前端美化",
+      "description": "Frontend UI/UX enhancement",
+      "description_zh": "前端界面美化助手，颜色搭配、排版优化、响应式布局、动效建议",
+      "category": "development",
+      "tags": [
+        "前端",
+        "美化",
+        "UI",
+        "CSS",
+        "Tailwind"
+      ],
+      "install_command": "npx skills add kevinaimonster/skill-hub@frontend-design -g -y",
+      "source": "kevinaimonster/skill-hub",
+      "skill_path": "skills/frontend-design",
+      "safety_score": 96,
+      "quality_grade": "S",
+      "is_satellite": true,
+      "weight": 3.0
+    },
+    {
+      "id": "web-design",
+      "name": "web-design",
+      "name_zh": "设计大师",
+      "description": "Web design system and UI guidance",
+      "description_zh": "网站设计与UI设计指导，覆盖布局、配色、字体、间距、设计系统",
+      "category": "design",
+      "tags": [
+        "设计",
+        "UI",
+        "网页设计",
+        "设计系统"
+      ],
+      "install_command": "npx skills add kevinaimonster/skill-hub@web-design -g -y",
+      "source": "kevinaimonster/skill-hub",
+      "skill_path": "skills/web-design",
+      "safety_score": 96,
+      "quality_grade": "S",
+      "is_satellite": true,
+      "weight": 3.0
+    },
+    {
+      "id": "brainstorming",
+      "name": "brainstorming",
+      "name_zh": "头脑风暴",
+      "description": "Creative brainstorming assistant",
+      "description_zh": "创意发散与方案构思助手，支持SCAMPER、六顶思考帽等框架",
+      "category": "productivity",
+      "tags": [
+        "头脑风暴",
+        "创意",
+        "brainstorm"
+      ],
+      "install_command": "npx skills add kevinaimonster/skill-hub@brainstorming -g -y",
+      "source": "kevinaimonster/skill-hub",
+      "skill_path": "skills/brainstorming",
+      "safety_score": 97,
+      "quality_grade": "S",
+      "is_satellite": true,
+      "weight": 3.0
+    },
+    {
+      "id": "ppt-master",
+      "name": "ppt-master",
+      "name_zh": "PPT大师",
+      "description": "Reveal.js presentation creation",
+      "description_zh": "演示文稿制作助手，Reveal.js生成HTML幻灯片",
+      "category": "productivity",
+      "tags": [
+        "PPT",
+        "演示",
+        "幻灯片",
+        "slides"
+      ],
+      "install_command": "npx skills add kevinaimonster/skill-hub@ppt-master -g -y",
+      "source": "kevinaimonster/skill-hub",
+      "skill_path": "skills/ppt-master",
+      "safety_score": 95,
+      "quality_grade": "S",
+      "is_satellite": true,
+      "weight": 3.0
+    },
+    {
       "id": "gh_anthropics_code-review",
       "name": "Code Review",
       "name_zh": "代码审查",
@@ -301,6 +406,121 @@
       "is_curated": true,
       "is_featured": false,
       "curated_rank": 5
+    },
+    {
+      "id": "code-review",
+      "name": "code-review",
+      "name_zh": "代码审查",
+      "description": "AI code quality review and security check",
+      "description_zh": "代码质量审查，覆盖安全漏洞、性能优化、最佳实践，输出结构化审查报告",
+      "category": "development",
+      "tags": [
+        "代码审查",
+        "code review",
+        "PR review",
+        "代码质量",
+        "安全检查"
+      ],
+      "install_command": "npx skills add kevinaimonster/skill-hub@code-review -g -y",
+      "source": "kevinaimonster/skill-hub",
+      "skill_path": "skills/code-review",
+      "safety_score": 95,
+      "quality_grade": "S",
+      "is_satellite": true,
+      "weight": 3.0
+    },
+    {
+      "id": "security-audit",
+      "name": "security-audit",
+      "name_zh": "安全审计",
+      "description": "OWASP Top 10 security audit and vulnerability scanning",
+      "description_zh": "安全审计专家，OWASP Top 10 检查、依赖漏洞扫描、敏感信息检测",
+      "category": "security",
+      "tags": [
+        "安全审计",
+        "OWASP",
+        "漏洞扫描",
+        "security audit",
+        "安全检查"
+      ],
+      "install_command": "npx skills add kevinaimonster/skill-hub@security-audit -g -y",
+      "source": "kevinaimonster/skill-hub",
+      "skill_path": "skills/security-audit",
+      "safety_score": 96,
+      "quality_grade": "S",
+      "is_satellite": true,
+      "weight": 3.0
+    },
+    {
+      "id": "react-best-practices",
+      "name": "react-best-practices",
+      "name_zh": "React宝典",
+      "description": "React 19+ and Next.js 15+ best practices guide",
+      "description_zh": "React 最佳实践指南，覆盖性能优化、Server Components、Hooks、状态管理",
+      "category": "development",
+      "tags": [
+        "React",
+        "Next.js",
+        "最佳实践",
+        "hooks",
+        "RSC",
+        "Server Components"
+      ],
+      "install_command": "npx skills add kevinaimonster/skill-hub@react-best-practices -g -y",
+      "source": "kevinaimonster/skill-hub",
+      "skill_path": "skills/react-best-practices",
+      "safety_score": 95,
+      "quality_grade": "S",
+      "is_satellite": true,
+      "weight": 3.0
+    },
+    {
+      "id": "douyin-script",
+      "name": "douyin-script",
+      "name_zh": "抖音脚本",
+      "description": "Douyin/TikTok short video script writing assistant",
+      "description_zh": "抖音短视频脚本创作助手，支持口播、带货、剧情、分镜、Vlog 多种类型",
+      "category": "content",
+      "tags": [
+        "抖音",
+        "短视频",
+        "脚本",
+        "分镜",
+        "带货",
+        "douyin",
+        "tiktok"
+      ],
+      "install_command": "npx skills add kevinaimonster/skill-hub@douyin-script -g -y",
+      "source": "kevinaimonster/skill-hub",
+      "skill_path": "skills/douyin-script",
+      "safety_score": 95,
+      "quality_grade": "S",
+      "is_satellite": true,
+      "weight": 3.0
+    },
+    {
+      "id": "wechat-mp",
+      "name": "wechat-mp",
+      "name_zh": "公众号",
+      "description": "WeChat Official Account article writing assistant",
+      "description_zh": "微信公众号文章撰写助手，支持深度分析、干货教程、故事型、观点评论等风格",
+      "category": "content",
+      "tags": [
+        "公众号",
+        "微信",
+        "推文",
+        "文章",
+        "排版",
+        "wechat",
+        "自媒体"
+      ],
+      "install_command": "npx skills add kevinaimonster/skill-hub@wechat-mp -g -y",
+      "source": "kevinaimonster/skill-hub",
+      "skill_path": "skills/wechat-mp",
+      "safety_score": 95,
+      "quality_grade": "S",
+      "is_satellite": true,
+      "weight": 3.0
     },
     {
       "id": "gh_composiohq_awesome-claude-skills",
