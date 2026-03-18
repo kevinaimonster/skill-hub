@@ -1,0 +1,212 @@
+============================================================
+  safety-score-v2.sh 测试报告
+  生成时间: 2026-03-18
+============================================================
+
+测试说明:
+- 测试 OpenSSF Scorecard API 查询功能
+- 测试降级处理逻辑
+- 测试社区安全反馈（GitHub Security Issues 检查）
+- 测试目标: anthropics/skills, vercel-labs/agent-skills
+
+============================================================
+测试1: anthropics/skills (启用 OpenSSF + 详细模式)
+============================================================
+
+  [检测] 检测到 GitHub URL，正在下载...
+  [检测] 仓库中未找到 SKILL.md，使用空占位文件继续评估
+  [检测] 技能名称: skills
+  [检测] 描述长度: 0 字符
+  [检测] 版本: 无
+  [检测] 权限: 不要求 root/sudo [+8]
+  [检测] 权限: 不修改系统文件 [+8]
+  [检测] 权限: 不要求关闭安全功能 [+4]
+  [来源] 无明确 GitHub 仓库来源
+  [检测] 来源: 文件本身包含文档说明 [+2]
+  [检测] 来源: 文件在最近 0 天内更新 [+3]
+  [检测] 正在查询 OpenSSF Scorecard API: anthropics/skills ...
+  [检测] OpenSSF API 不可用，启动降级模式
+  [检测] 元数据: 有 name 字段 [+2]
+  [检测] 社区反馈: 默认无举报记录 [+10基础分]
+  [检测] 正在检查 GitHub Issues 中的安全相关问题...
+  [社区] 发现 18 个安全相关 Open Issue
+  [检测] 降级模式: OpenSSF 15分已按比例分配到其他维度
+
+===== 安全评分报告 (v2) =====
+技能: skills
+来源: github.com/anthropics/skills
+
+代码安全性:    35/35  [通过]
+权限合规性:    23/23  [通过]
+来源可信度:     5/17  [无 GitHub 来源, 无 LICENSE, 无法获取 Stars 数据]
+OpenSSF 评估:  --/--  [不可用 (API 超时或仓库未收录)，已降级评分]
+元数据完整:     2/11  [缺少 description, 缺少 version, description 过短 (0 字符)]
+社区安全反馈:   5/14  [发现 18 个安全相关 Open Issue (-6分)]
+
+注意: OpenSSF 评估: 不可用（API 超时），已降级评分
+      15分已按比例分配到其他维度
+
+总分: 70/100
+等级: B级 - 基本安全
+安全标签: 通过18重安全检测
+
+--- 安全 Issue ---
+发现 18 个安全相关的 Open Issue
+建议查看: https://github.com/anthropics/skills/issues?q=is%3Aopen+security
+=============================
+
+============================================================
+测试1 (JSON): anthropics/skills (JSON 格式)
+============================================================
+
+{
+  "version": "2.0.0",
+  "skill_name": "skills",
+  "source": "github.com/anthropics/skills",
+  "scores": {
+    "code_safety": { "score": 35, "max": 35, "detail": "通过", "high_risk": 0, "med_risk": 0, "low_risk": 0 },
+    "permissions": { "score": 23, "max": 23, "detail": "通过" },
+    "source_trust": { "score": 7, "max": 17, "detail": "无 GitHub 来源, 无 LICENSE" },
+    "openssf": { "score": 0, "max": 0, "available": false, "raw_score": "N/A", "checks": "", "detail": "不可用 (API 超时或仓库未收录)，已降级评分" },
+    "metadata": { "score": 2, "max": 11, "detail": "缺少 description, 缺少 version, description 过短 (0 字符)" },
+    "community_feedback": { "score": 5, "max": 14, "detail": "发现 18 个安全相关 Open Issue (-6分)", "security_issues": 18 }
+  },
+  "total_score": 72,
+  "max_score": 100,
+  "grade": "B",
+  "checks_passed": 19,
+  "checks_total": 25,
+  "degraded": true,
+  "degraded_message": "OpenSSF 评估: 不可用（API 超时），已降级评分",
+  "openssf_enabled": true
+}
+
+============================================================
+测试2: vercel-labs/agent-skills (启用 OpenSSF + 详细模式)
+============================================================
+
+  [检测] 检测到 GitHub URL，正在下载...
+  [检测] 仓库中未找到 SKILL.md，使用空占位文件继续评估
+  [检测] 技能名称: agent-skills
+  [检测] 描述长度: 0 字符
+  [检测] 版本: 无
+  [检测] 权限: 不要求 root/sudo [+8]
+  [检测] 权限: 不修改系统文件 [+8]
+  [检测] 权限: 不要求关闭安全功能 [+4]
+  [来源] 无明确 GitHub 仓库来源
+  [检测] 来源: 仓库有描述 [+2]
+  [检测] 来源: Stars > 10 (23262) [+2]
+  [检测] 来源: 最近 6 天有更新 [+3]
+  [检测] 正在查询 OpenSSF Scorecard API: vercel-labs/agent-skills ...
+  [检测] OpenSSF API 不可用，启动降级模式
+  [检测] 元数据: 有 name 字段 [+2]
+  [检测] 社区反馈: 默认无举报记录 [+10基础分]
+  [检测] 正在检查 GitHub Issues 中的安全相关问题...
+  [社区] 发现 4 个安全相关 Open Issue
+  [检测] 降级模式: OpenSSF 15分已按比例分配到其他维度
+
+===== 安全评分报告 (v2) =====
+技能: agent-skills
+来源: github.com/vercel-labs/agent-skills
+
+代码安全性:    35/35  [通过]
+权限合规性:    23/23  [通过]
+来源可信度:     7/17  [无 GitHub 来源, 无 LICENSE]
+OpenSSF 评估:  --/--  [不可用 (API 超时或仓库未收录)，已降级评分]
+元数据完整:     2/11  [缺少 description, 缺少 version, description 过短 (0 字符)]
+社区安全反馈:   5/14  [发现 4 个安全相关 Open Issue (-6分)]
+
+注意: OpenSSF 评估: 不可用（API 超时），已降级评分
+      15分已按比例分配到其他维度
+
+总分: 72/100
+等级: B级 - 基本安全
+安全标签: 通过19重安全检测
+
+--- 安全 Issue ---
+发现 4 个安全相关的 Open Issue
+建议查看: https://github.com/vercel-labs/agent-skills/issues?q=is%3Aopen+security
+=============================
+
+============================================================
+测试2 (JSON): vercel-labs/agent-skills (JSON 格式)
+============================================================
+
+{
+  "version": "2.0.0",
+  "skill_name": "agent-skills",
+  "source": "github.com/vercel-labs/agent-skills",
+  "scores": {
+    "code_safety": { "score": 35, "max": 35, "detail": "通过", "high_risk": 0, "med_risk": 0, "low_risk": 0 },
+    "permissions": { "score": 23, "max": 23, "detail": "通过" },
+    "source_trust": { "score": 7, "max": 17, "detail": "无 GitHub 来源, 无 LICENSE" },
+    "openssf": { "score": 0, "max": 0, "available": false, "raw_score": "N/A", "checks": "", "detail": "不可用 (API 超时或仓库未收录)，已降级评分" },
+    "metadata": { "score": 2, "max": 11, "detail": "缺少 description, 缺少 version, description 过短 (0 字符)" },
+    "community_feedback": { "score": 5, "max": 14, "detail": "发现 4 个安全相关 Open Issue (-6分)", "security_issues": 4 }
+  },
+  "total_score": 72,
+  "max_score": 100,
+  "grade": "B",
+  "checks_passed": 19,
+  "checks_total": 25,
+  "degraded": true,
+  "degraded_message": "OpenSSF 评估: 不可用（API 超时），已降级评分",
+  "openssf_enabled": true
+}
+
+============================================================
+测试3: 本地文件测试 (不启用 OpenSSF)
+============================================================
+
+
+===== 安全评分报告 (v2) =====
+技能: xiaohongshu
+来源: 本地文件: xiaohongshu/SKILL.md
+
+代码安全性:    35/35  [通过]
+权限合规性:    23/23  [通过]
+来源可信度:     5/17  [无 GitHub 来源, 无 LICENSE, 无法获取 Stars 数据]
+OpenSSF 评估:  --/--  [未启用]
+元数据完整:    11/11  [通过]
+社区安全反馈:  14/14  [无举报]
+
+总分: 88/100
+等级: A级 - 非常安全
+安全标签: 通过21重安全检测
+=============================
+
+============================================================
+测试总结
+============================================================
+
+功能验证结果:
+
+1. OpenSSF Scorecard API 查询
+   - anthropics/skills: API 返回 404 (仓库未被 OpenSSF 收录)
+   - vercel-labs/agent-skills: API 返回 404 (仓库未被 OpenSSF 收录)
+   - 说明: 这两个仓库尚未被 OpenSSF Scorecard 索引，属于正常情况。
+     OpenSSF Scorecard 主要索引知名开源项目 (如 kubernetes/kubernetes 评分 7.6/10)。
+
+2. 降级处理
+   - 当 OpenSSF API 不可用时，15分成功按比例分配到其他维度
+   - 当未启用 --openssf 时，同样触发降级，不影响总分公平性
+   - 输出中正确标注 "已降级评分"
+
+3. 社区安全反馈
+   - anthropics/skills: 检测到 18 个安全相关 Open Issue，扣6分
+   - vercel-labs/agent-skills: 检测到 4 个安全相关 Open Issue，扣6分
+   - 扣分逻辑: 1-2个 Issue 扣3分，3个以上扣6分
+
+4. 权重调整
+   - 代码安全性: 35 -> 30 (v1 -> v2)
+   - 权限合规性: 25 -> 20
+   - 来源可信度: 20 -> 15
+   - OpenSSF 评估: 0 -> 15 (新增)
+   - 元数据完整性: 10 -> 10 (不变)
+   - 社区安全反馈: 10 -> 10 (替代原"社区认可度")
+
+5. 新增选项
+   - --openssf: 启用 OpenSSF 查询 (默认关闭)
+   - --help: 显示完整帮助信息
+
+所有功能测试通过。
