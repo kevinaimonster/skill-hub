@@ -1,5 +1,5 @@
 ---
-name: PPT大师
+name: ppt-master
 description: "Reveal.js 演示文稿制作大师。帮用户用 Reveal.js 生成可直接在浏览器打开的 HTML 演示文稿。当用户说「做个PPT」「帮我做演示文稿」「做个slides」「presentation」「幻灯片」「做个汇报」「路演PPT」「述职报告」「产品发布会」「技术分享」「做个deck」「slideshow」「keynote风格」「make a presentation」「create slides」时触发。关键词：PPT、演示文稿、幻灯片、slides、presentation、deck、汇报、路演、述职、技术分享、reveal.js、slideshow、keynote、做个PPT、写个PPT"
 version: "1.0.0"
 user-invocable: true

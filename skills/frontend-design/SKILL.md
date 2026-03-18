@@ -1,5 +1,5 @@
 ---
-name: 前端美化
+name: frontend-design
 description: |
   帮助用户美化网页界面、优化 UI/UX 设计，生成高质量的前端代码。
   触发场景：帮我美化页面、界面太丑了、UI 优化、页面不好看、样式调整、

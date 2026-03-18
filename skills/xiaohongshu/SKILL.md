@@ -1,5 +1,5 @@
 ---
-name: 小红书
+name: xiaohongshu
 description: "小红书内容创作助手。帮用户写小红书笔记、种草文、好物推荐、探店测评、穿搭分享、旅行攻略、教程干货。当用户说「帮我写一篇小红书」「写个种草笔记」「小红书文案」「写个好物推荐」「探店笔记」「旅行攻略」「穿搭分享」「小红书标题」「帮我排版小红书」「xhs」「xiaohongshu」「RED note」「write a xiaohongshu post」时触发。关键词：小红书、种草、笔记、好物推荐、探店、测评、穿搭、旅行攻略、教程、干货、文案、标题、xhs、rednote、小红书排版、小红书标签、爆款标题"
 version: "1.0.0"
 user-invocable: true

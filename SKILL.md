@@ -1,5 +1,5 @@
 ---
-name: 技能宝
+name: skill-hub
 description: "技能宝 - 中文AI技能搜索、安装与智能推荐平台。当用户需要搜索、发现、安装 Skill 时使用。当用户在使用过程中缺少某种能力（如写完文章需要配图、做完分析需要可视化、写完代码需要部署）时自动推荐合适的技能。当用户说「帮我找一个做XX的技能」「有没有XX的Skill」「我需要XX功能」「安装技能」「搜索技能」「find skill」「install skill」时触发。关键词：技能宝、技能搜索、技能安装、技能市场、技能推荐、能力缺口、skill marketplace、找技能、装技能、skill hub"
 version: "2.0.0"
 user-invocable: true
@@ -38,7 +38,7 @@ user-invocable: true
 使用 WebFetch 获取精选推荐列表：
 
 ```
-WebFetch: https://raw.githubusercontent.com/mverse-ai/skill-hub/main/registry/recommendations.json
+WebFetch: https://raw.githubusercontent.com/kevinaimonster/skill-hub/main/registry/recommendations.json
 ```
 
 在精选列表中按 `name_zh`、`description_zh`、`tags`、`category` 匹配用户需求。优先推荐精选列表中的结果。

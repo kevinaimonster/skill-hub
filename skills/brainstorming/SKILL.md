@@ -1,5 +1,5 @@
 ---
-name: 头脑风暴
+name: brainstorming
 description: >
   帮用户做创意发散、方案构思、结构化整理的 AI 头脑风暴引导师。
   触发词：想点子、创意讨论、方案构思、集思广益、出主意、brainstorm、ideation。
