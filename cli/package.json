@@ -1,0 +1,18 @@
+{
+  "name": "@skillhub/cli",
+  "version": "1.0.0",
+  "description": "技能宝 CLI — 快速创建和发布 Skill",
+  "type": "module",
+  "bin": {
+    "skillhub": "./bin/skillhub.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "templates"
+  ],
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "license": "MIT"
+}
