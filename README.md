@@ -11,20 +11,18 @@
 
 ## 快速开始
 
-```bash
-# 安装全部 50 个技能（推荐）
-npx skills add kevinaimonster/skill-hub --full-depth --skill '*' -g -y
+**复制这条命令到终端运行，50 个技能一步装完：**
 
-# 只安装技能宝（搜索+推荐引擎）
-npx skills add kevinaimonster/skill-hub -g -y
+```bash
+npx skills add kevinaimonster/skill-hub --full-depth --skill '*' -g -y
 ```
 
-安装后，对你的 AI 助手说：
+**装完了？试试对 AI 说：**
 
-- 「帮我写一篇小红书」
-- 「做个 PPT」
-- 「帮我 review 代码」
-- 「帮我找一个做 SEO 的技能」
+- 「帮我写一篇小红书」→ 小红书 Skill 自动接管
+- 「做个 PPT」→ PPT大师生成 HTML 幻灯片
+- 「帮我 review 代码」→ 代码审查输出结构化报告
+- 「帮我找一个做 SEO 的技能」→ 技能宝搜索 5000+ 索引
 
 ## 50 个精选技能
 
