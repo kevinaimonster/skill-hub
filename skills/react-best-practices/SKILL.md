@@ -13,7 +13,8 @@ description: |
 license: MIT
 version: "1.0.0"
 user-invocable: true
----
+version: "1.0.0"
+license: "MIT"---
 
 # React宝典
 

@@ -14,7 +14,8 @@ allowed-tools:
 license: MIT
 version: 1.0.0
 user-invocable: true
----
+version: "1.0.0"
+license: "MIT"---
 
 # 安全审计 - AI 安全审计专家
 

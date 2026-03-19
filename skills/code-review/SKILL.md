@@ -14,7 +14,8 @@ allowed-tools:
 license: MIT
 version: 1.0.0
 user-invocable: true
----
+version: "1.0.0"
+license: "MIT"---
 
 # 代码审查 - AI 代码质量守护者
 
